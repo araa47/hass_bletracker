@@ -24,6 +24,10 @@ Currently the script only tracks one particular device, however if the ability t
 
 2) You will also need to run this as root or modify permissions to be able to use the bluetooth as any user on the pi   
 
+## I am Running HASSIO 
+
+If you are running hassio, I currently havent figured out how to make this an add-on due to some permission issues with the bluetooth driver in hassio. A current method of still being able to implement this would be installing this on a raspberry pi w , and when you reach step 9, simply change the config of your hassio and point it to your raspberry pi w's ip address 
+
 ## Installation: 
 
 
@@ -52,6 +56,9 @@ Currently the script only tracks one particular device, however if the ability t
 
 If you are using the itag device and enabled pairing, when you walk out of range from the pi with the itag tacker, it will start beeping. This is pretty annoying right now, but seems to be a firmware feature on the itag so I havent been enable to disable this. If you are annoyed by this noise, you could aways open up the device and disconnect the buzzer. 
 
+## Future Updates
+
+Currently this script only supports tracking a single device, but it shouldn't be too difficult to add multiple device support. Will be adding this in once I get some more time. 
 
 
 
