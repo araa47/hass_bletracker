@@ -29,7 +29,7 @@ Currently the script only tracks one particular device, however if the ability t
 
 1) ``` sudo apt install bluetooth libbluetooth-dev pkg-config libboost-python-dev libboost-thread-dev libglib2.0-dev python-dev ```
 
-2) ``` git clone "thisrepo" ```
+2) ``` git clone https://github.com/araa47/hass_bletracker.git ```
 
 3) ``` pip3 install flask bluepy requests ```
 
