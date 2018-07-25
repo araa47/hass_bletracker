@@ -1,0 +1,4 @@
+sensor:
+  - platform: rest 
+    name: Jarvis 
+    resource: http://192.168.0.69:5000/api/search/00:A0:C9:14:C8:29
